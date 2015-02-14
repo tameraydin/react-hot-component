@@ -1,0 +1,56 @@
+{
+  "name": "my-react-component",
+  "version": "0.1.0",
+  "description": "My very own react component",
+  "main": "dist/my-react-component.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "react",
+    "component"
+  ],
+  "author": "You",
+  "license": {
+    "type": "MIT",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "jshintConfig": {
+    "globalstrict": true,
+    "unused": true,
+    "esnext": true,
+    "predef": [
+      "require",
+      "module"
+    ]
+  },
+  "dependencies": {
+    "react": "^0.12.2"
+  },
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-6to5": "^3.0.0",
+    "gulp-cached": "^1.0.2",
+    "gulp-header": "^1.2.2",
+    "gulp-jasmine": "^2.0.0",
+    "gulp-jshint": "^1.9.2",
+    "gulp-react": "^2.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.1.0",
+    "jshint-stylish": "^1.0.0",
+    "jsx-loader": "^0.12.2",
+    "react-hot-loader": "^1.1.1",
+    "run-sequence": "^1.0.2",
+    "webpack": "^1.5.1",
+    "webpack-dev-server": "1.6.4"
+  }
+}
