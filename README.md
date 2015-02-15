@@ -8,14 +8,14 @@ Scaffolds a rapid development environment to create your React component package
 - Integrated [Jest](http://facebook.github.io/jest/) testing
 
 ## How to install?
-Install [Yeoman](http://yeoman.io/) and Flux-React generator:
+Install [Yeoman](http://yeoman.io/) and React Hot Component generator:
 
 ```bash
 npm install -g yo
 npm install -g generator-react-hot-component
 ```
 
-Initialize the generator:
+Navigate to folder where you wish to scaffold the project and run:
 
 ```bash
 yo react-hot-component
