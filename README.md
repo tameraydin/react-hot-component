@@ -28,7 +28,7 @@ Optionally, ``gulp watch`` will run [JSHint](http://jshint.com/) to check your s
 
 Finally run ``gulp build`` to generate distribution files.
 
-Checkout [gulpfile.js](http://github.com/tameraydin/generator-react-hot-component/blob/master/app/templates/gulpfile.js) for stand-alone tasks.
+Checkout [gulpfile.js](http://github.com/tameraydin/generator-react-hot-component/blob/master/app/templates/_gulpfile.js) for stand-alone tasks.
 
 ## License
 
