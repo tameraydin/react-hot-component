@@ -97,6 +97,7 @@ gulp.task('serve', shell.task('node server.js'));
 
 gulp.task('build', ['clean'], function(cb) {
   runSequence(
+    'test',
     'browserify',
     'uglify',
     'banner',
