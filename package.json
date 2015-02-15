@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "description": "My very own react component",
   "main": "dist/my-react-component.js",
-  "scripts": {
-    "test": "node --harmony ./node_modules/.bin/jest"
-  },
   "repository": {
     "type": "git",
     "url": ""

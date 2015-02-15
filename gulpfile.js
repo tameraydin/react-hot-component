@@ -26,7 +26,7 @@ var BANNER = [
 
 var PATH = {
   SOURCE: './src/',
-  TEST: './test/',
+  TEST: './__tests__/',
   DIST: './dist/'
 };
 
@@ -89,8 +89,10 @@ gulp.task('banner', function() {
 
 gulp.task('watch', function() {
   gulp.watch(PATH.SOURCE + '*.js', ['jshint']);
+  gulp.watch(PATH.TEST + '*', ['test']);
 });
 
+gulp.task('test', shell.task('node --harmony ./node_modules/.bin/jest'));
 gulp.task('serve', shell.task('node server.js'));
 
 gulp.task('build', ['clean'], function(cb) {
