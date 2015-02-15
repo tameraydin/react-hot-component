@@ -3,26 +3,26 @@ var jshint = require('gulp-jshint');
 var react = require('gulp-react');
 var cache = require('gulp-cached');
 var uglify = require('gulp-uglify');
-var rename = require("gulp-rename");
+var rename = require('gulp-rename');
 var header = require('gulp-header');
 var shell = require('gulp-shell');
 var del = require('del');
 var runSequence = require('run-sequence');
 var stylish = require('jshint-stylish');
 var browserify = require('browserify');
-var source = require("vinyl-source-stream");
+var source = require('vinyl-source-stream');
 var reactify = require('reactify');
 var pkg = require('./package');
 var jshintConfig = pkg.jshintConfig;
 
 var BANNER = [
-    '/**',
-    ' * <%= pkg.name %> v<%= pkg.version %> (<%= pkg.homepage %>)',
-    ' * Copyright <%= new Date().getFullYear() %> <%= pkg.author %>',
-    ' * Licensed under <%= pkg.license %>',
-    ' */',
-    ''
-  ].join('\n');
+  '/**',
+  ' * <%= pkg.name %> v<%= pkg.version %> (<%= pkg.homepage %>)',
+  ' * Copyright <%= new Date().getFullYear() %> <%= pkg.author %>',
+  ' * Licensed under <%= pkg.license %>',
+  ' */',
+  ''
+].join('\n');
 
 var PATH = {
   SOURCE: './src/',
@@ -57,7 +57,9 @@ gulp.task('jshint', function() {
 
 gulp.task('browserify', function() {
   var b = browserify();
-  b.transform('reactify', {es6: true});
+  b.transform('reactify', {
+    es6: true
+  });
   b.add(PATH.SOURCE + 'index.js');
   b.ignore('react');
   b.external(['react', 'react/addons']);
