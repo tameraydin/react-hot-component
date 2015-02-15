@@ -1,3 +1,3 @@
-# my-react-component
+# <%= compName %>
 
-My very own react component
+<%= compDesc %>

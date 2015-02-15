@@ -1,8 +1,8 @@
 {
-  "name": "my-react-component",
+  "name": "<%= compName %>",
   "version": "0.1.0",
-  "description": "My very own react component",
-  "main": "dist/my-react-component.js",
+  "description": "<%= compDesc %>",
+  "main": "dist/<%= compName %>.js",
   "repository": {
     "type": "git",
     "url": ""
@@ -11,8 +11,8 @@
     "react",
     "component"
   ],
-  "author": "You",
-  "license": "MIT",
+  "author": "<%= compAuthor %>",
+  "license": "<%= compLicense %>",
   "bugs": {
     "url": ""
   },
