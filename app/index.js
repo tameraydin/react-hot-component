@@ -72,7 +72,7 @@ var ReactHotComponentGenerator = yeoman.generators.Base.extend({
       this.copy('_README.md', 'README.md');
 
       this.copy('index.html', 'index.html');
-      this.copy('hot-loader.js', 'hot-loader.js');
+      this.copy('demo.js', 'demo.js');
       this.copy('preprocessor.js', 'preprocessor.js');
       this.copy('server.js', 'server.js');
       this.copy('webpack.config.js', 'webpack.config.js');
