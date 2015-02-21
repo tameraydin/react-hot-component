@@ -63,6 +63,7 @@ var ReactHotComponentGenerator = yeoman.generators.Base.extend({
     projectfiles: function() {
       this.copy('_nvmrc', '.nvmrc');
       this.copy('_gitignore', '.gitignore');
+      this.copy('_npmignore', '.npmignore');
       if (this.compTravis) {
         this.copy('_travis.yml', '.travis.yml');
       }
