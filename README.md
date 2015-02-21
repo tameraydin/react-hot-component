@@ -18,6 +18,7 @@ npm install -g generator-react-hot-component
 Navigate to folder where you wish to scaffold the project and run:
 
 ```bash
+# if possible: nvm use 0.10
 yo react-hot-component
 ```
 
