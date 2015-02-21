@@ -21,10 +21,12 @@ Navigate to folder where you wish to scaffold the project and run:
 yo react-hot-component
 ```
 
-## Action!
+## Usage
 Run ``gulp serve`` and open [http://localhost:3000](http://localhost:3000)
 
 Optionally, ``gulp watch`` will run [JSHint](http://jshint.com/) to check your source files and will run tests when you modify the specs.
+
+You can seperately execute your test specs with ``gulp test``. **Please be sure that your Node.js version is ``~0.10`` since Jest might be buggy with newer versions**.
 
 Finally run ``gulp build`` to generate distribution files.
 
