@@ -31,7 +31,7 @@ You can seperately execute your test specs with ``gulp test``. **Please be sure 
 
 Finally run ``gulp build`` to generate distribution files.
 
-Checkout [gulpfile.js](http://github.com/tameraydin/generator-react-hot-component/blob/master/app/templates/_gulpfile.js) for stand-alone tasks.
+Checkout [gulpfile.js](http://github.com/tameraydin/react-hot-component/blob/master/app/templates/_gulpfile.js) for stand-alone tasks.
 
 ## License
 

@@ -1,6 +1,6 @@
 {
   "name": "generator-react-hot-component",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create your React component packages quickly using React Hot Loader & Gulp",
   "keywords": [
     "yeoman-generator",
@@ -15,9 +15,9 @@
     "yeoman-generator": ">=0.18.0 <0.18.9",
     "yosay": "^1.0.1"
   },
-  "homepage": "http://github.com/tameraydin/generator-react-hot-component",
+  "homepage": "http://github.com/tameraydin/react-hot-component",
   "bugs": {
-    "url": "https://github.com/tameraydin/generator-react-hot-component/issues"
+    "url": "https://github.com/tameraydin/react-hot-component/issues"
   },
   "readmeFilename": "readme.md",
   "author": "Tamer Aydin",
@@ -27,6 +27,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tameraydin/generator-react-hot-component.git"
+    "url": "git://github.com/tameraydin/react-hot-component.git"
   }
 }

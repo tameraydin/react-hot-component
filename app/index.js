@@ -88,7 +88,7 @@ var ReactHotComponentGenerator = yeoman.generators.Base.extend({
 
   end: function() {
     this.log(yosay(
-      'Almost done! Need help? Check out ' + chalk.red('http://github.com/tameraydin/generator-react-hot-component')
+      'Almost done! Need help? Check out ' + chalk.red('http://github.com/tameraydin/react-hot-component')
     ));
 
     this.installDependencies({
