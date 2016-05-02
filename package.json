@@ -21,10 +21,7 @@
   },
   "readmeFilename": "readme.md",
   "author": "Tamer Aydin",
-  "license": {
-    "type": "MIT",
-    "url": "http://tameraydin.mit-license.org/"
-  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/tameraydin/react-hot-component.git"
