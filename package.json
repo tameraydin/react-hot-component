@@ -1,6 +1,6 @@
 {
   "name": "generator-react-hot-component",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Create your React component packages quickly using React Hot Loader & Gulp",
   "keywords": [
     "yeoman-generator",
